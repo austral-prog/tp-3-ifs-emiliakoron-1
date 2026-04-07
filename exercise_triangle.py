@@ -16,11 +16,12 @@ def triangle():
         Los lados no forman un triangulo valido
     """
     pass
-lado_uno = float(input())
-lado_dos = float(input())
-lado_tres = float(input())
-
-if lado_uno + lado_dos > lado_tres and lado_uno + lado_tres > lado_dos and lado_dos + lado_tres > lado_uno:
-    print("Los lados forman un triangulo valido")
-else:
-    print("Los lados no forman un triangulo valido")
+    lado_uno = float(input())
+    lado_dos = float(input())
+    lado_tres = float(input())
+    
+    if lado_uno + lado_dos > lado_tres and lado_uno + lado_tres > lado_dos and lado_dos + lado_tres > lado_uno:
+        print("Los lados forman un triangulo valido")
+    
+    else:
+        print("Los lados no forman un triangulo valido")
